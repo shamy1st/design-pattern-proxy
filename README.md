@@ -1,6 +1,6 @@
-# Proxy Design Pattern (Java Implementation)
+# Proxy Design Pattern (Java)
 
-**Proxy** create a proxy "agent" from a real object. ([wiki]())
+**Proxy** create a proxy "agent" from a real object.
 ![](https://github.com/shamy1st/design-pattern-proxy-java/blob/main/proxy-uml.png)
 ### Problem: 
 You have **Library** class with multiple **Ebook**, at any time you want to open a specific **Ebook**, the current implementation loads all **Ebooks** in memory and then open your request **Ebook** which is so expensive.
